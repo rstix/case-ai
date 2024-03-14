@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AIcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+    <div class="logo h-[160px]">
+      <img class="w-[260px]" src="logo.png" alt="" />
+    </div>
+    <div
+      class="flex flex-col justify-center items-center w-full min-h-[calc(100vh-160px)]"
+    >
+      <div
+        class="mb-[15px] gap-2 sm:w-[460px] md:w-[70%] max-w-[620px] relative border border-black pl-[16px] pr-[10px] py-[6px] rounded-2xl flex items-center"
+      >
+        <textarea
+          class="flex-1 resize-none outline-none py-[4px]"
+          rows="5"
+          placeholder="Describe your case..."
+        ></textarea>
+        <div class="counter hidden absolute bottom-[7px] text-xs text-gray-500">
+          <span>0</span>/1000
+        </div>
+        <button
+          class="clear mt-[10px] mr-[5px] hidden self-start right-[22px] top-[14px]"
+        >
+          <svg
+            class="w-[14px] h-[14px]"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+            id="Capa_1"
+            x="0px"
+            y="0px"
+            viewBox="0 0 511.991 511.991"
+            style="enable-background: new 0 0 511.991 511.991"
+            xml:space="preserve"
+            width="512"
+            height="512"
+          >
+            <g>
+              <path
+                d="M286.161,255.867L505.745,36.283c8.185-8.474,7.951-21.98-0.523-30.165c-8.267-7.985-21.375-7.985-29.642,0   L255.995,225.702L36.411,6.118c-8.475-8.185-21.98-7.95-30.165,0.524c-7.985,8.267-7.985,21.374,0,29.641L225.83,255.867   L6.246,475.451c-8.328,8.331-8.328,21.835,0,30.165l0,0c8.331,8.328,21.835,8.328,30.165,0l219.584-219.584l219.584,219.584   c8.331,8.328,21.835,8.328,30.165,0l0,0c8.328-8.331,8.328-21.835,0-30.165L286.161,255.867z"
+              />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <button
+        class="analyze mb-[30px] transition-all flex sm:w-[460px] md:w-[70%] max-w-[620px] items-center justify-center gap-2 relative border rounded-[12px] p-[8px] px-[22px] bg-[#6827e4] text-white"
+      >
+        <svg
+          class="fill-white hidden w-[20px] h-[20px]"
+          xmlns="http://www.w3.org/2000/svg"
+          id="Outline"
+          viewBox="0 0 24 24"
+          width="512"
+          height="512"
+        >
+          <path
+            d="M23.707,22.293l-5.969-5.969a10.016,10.016,0,1,0-1.414,1.414l5.969,5.969a1,1,0,0,0,1.414-1.414ZM10,18a8,8,0,1,1,8-8A8.009,8.009,0,0,1,10,18Z"
+          />
+        </svg>
+        <span class="">Benzer vakaları bul</span>
+      </button>
+
+      <div class="results sm:w-[460px] md:w-[70%] max-w-[620px] mb-4"></div>
+    </div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
