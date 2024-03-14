@@ -41,13 +41,13 @@ const data = [
           'Judicial Decision on Unjust Dismissal and Fraudulent Debt Claim via Blank Cheque',
       },
       {
-        file: 'protoexamples/prompt_6/17._Hukuk_Dairesi_2015-18114.html',
+        file: 'examples/prompt_6/17._Hukuk_Dairesi_2015-18114.html',
         summary:
           'Trafik kazası nedeniyle maddi ve manevi zararlar için açılan dava kısmen kabul edilerek, davalı sigorta şirketinin poliçe limitleri dahilinde zararı ödemesine karar verildi. Yapılan temyiz sonucu hatır indirimi ve müterafik kusur oranı hesaplamalarındaki hatalar nedeniyle ilk hüküm bozuldu.',
         title: 'Trafik Kazası Sonucu Yaralanma Tazminatı Kararı',
       },
       {
-        file: 'protoexamples/prompt_6/17._Hukuk_Dairesi_2016-13899.html',
+        file: 'examples/prompt_6/17._Hukuk_Dairesi_2016-13899.html',
         summary:
           'Temyiz mahkemesi, bir davalıya karşı iddianın reddedilmesi ve diğer davalılar aleyhine kabul edilmesine dair trafik kazası tazminat davasındaki kararı bozdu. Mahkeme, zarar ve araç değer kaybının yeterli değerlendirilmediğini belirterek, araç onarım maliyetleri ve değer kaybı hesaplaması konusunda detaylı uzman analizi yapılmasının ardından nihai karara varılması gerektiğini vurguladı.',
         title:
