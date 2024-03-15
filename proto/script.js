@@ -84,7 +84,7 @@ button.addEventListener('click', () => {
     const html = `
             <div class="flex border relative rounded-md ml-[40px] mb-5">
           <a
-            class="download absolute top-[50%] translate-y-[-50%] -left-[40px]"
+            class="download cursor-pointer absolute top-[50%] translate-y-[-50%] -left-[40px]"
           >
             <img class="w-[30px] h-auto" src="./download.png" alt="" />
           </a>
